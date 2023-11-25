@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.cont {
+    @apply w-[90%] md:w-[80%] mx-auto
+}
+
+.shadow-or{
+    box-shadow: 0 0 3rem rgba(231, 176, 25, 0.5);
+}
+
+.shadow-gr{
+    box-shadow: 0 0 3rem rgba(90, 231, 25, 0.5);
+}
