@@ -26,7 +26,7 @@ const Testimonials = () => {
 
                 {/* textimonials */}
                 <div className="testimonials relative">
-                    <div className="testimony absolute top-0 left-[20%] w-[30rem] trans">
+                    <div className="testimony absolute top-0 left-[20%] w-[30rem] trans text-slate-600">
                         <div className="image absolute -top-[3rem] -left-[2rem]">
                             <Image src={Man} className="w-[5rem] rounded-full" width={20} alt="testifier" unoptimized/>
                         </div>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                             <h6 className="location">Lahore, Pakistan</h6>
                         </div>
                     </div>
-                    <div className="testimony absolute top-[40%] left-[30%] -z-10 w-[30rem] trans">
+                    <div className="testimony absolute top-[40%] left-[30%] -z-10 w-[30rem] trans text-slate-600">
                         <div className="image absolute -top-[3rem] -left-[2rem]">
                             <Image src={Man} className="w-[5rem] rounded-full" width={20} alt="testifier" unoptimized/>
                         </div>
