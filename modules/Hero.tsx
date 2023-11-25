@@ -26,7 +26,7 @@ const Hero = () => {
                     {/* cta */}
                     <div className="cta mt-[3rem] flex gap-[5rem] ">
                         <div className="button text-[1.4rem]">
-                            <Button text="Find out more" />
+                            <Button text="Find out more" className="shadow-or"/>
                         </div>
                         <div className="play flex items-center gap-[1.5rem]">
                             <div className="play-btn rounded-full p-[1.4rem] shadow-gr bg-myGreen w-max"><FaPlay /></div>
