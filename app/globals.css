@@ -18,3 +18,7 @@
 .box-shadow{
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
 }
+
+.trans{
+    @apply transition-all ease-in-out duration-300;
+}
