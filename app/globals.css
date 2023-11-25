@@ -4,7 +4,7 @@
 
 
 .cont {
-    @apply w-[90%] md:w-[80%] mx-auto
+    @apply w-[90%] md:w-[80%] lg:w-[65%] mx-auto
 }
 
 .shadow-or{
@@ -13,4 +13,8 @@
 
 .shadow-gr{
     box-shadow: 0 0 3rem rgba(90, 231, 25, 0.5);
+}
+
+.box-shadow{
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
 }

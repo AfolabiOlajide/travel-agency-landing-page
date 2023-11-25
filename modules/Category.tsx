@@ -19,7 +19,7 @@ const Category = () => {
                     <h2>We Offer Best Services</h2>
                 </Header>
                 {/* services */}
-                <div className="services grid grid-cols-4 mt-[5rem] gap-[10rem]">
+                <div className="services grid grid-cols-4 mt-[5rem] gap-[3rem]">
                     {/* service */}
                     <div className="services text-center flex flex-col justify-center">
                         <div className="image">
