@@ -15,7 +15,7 @@ const Hero = () => {
                     <h5 className="uppercase font-bold text-myGreen mb-[2rem] text-[1.5rem]">
                         best destinations around the world
                     </h5>
-                    <Title className="!font-extrabold text-[7rem] text-[#181e4b] leading-[7rem]">
+                    <Title className="!font-extrabold text-[7rem] text-grey leading-[7rem]">
                         <h1>Travel, enjoy and live a new and full life</h1>
                     </Title>
                     <p className="mt-[3rem] text-slate-500 text-base md:text-[1.5rem] leading-[3rem]">

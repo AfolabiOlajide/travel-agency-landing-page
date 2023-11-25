@@ -14,7 +14,8 @@ const config: Config = {
 				myGreen: "#5dad1f",
 				whitishPurple: "#f9f7fe",
 				myOrange: "#ff8d6c",
-				lightOrange: "#fff9ee"
+				lightOrange: "#fff9ee",
+                grey: "#181e4b"
             },
         },
     },

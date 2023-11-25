@@ -21,7 +21,7 @@ const Nav = () => {
                 </div>
                 <div className="nav-items font-[400] text-[1.2rem] flex items-center gap-[3rem]">
                     {navItem.map((item) => (
-                        <Link href={item.link}>
+                        <Link href={item.link} key={item.id}>
                             <span className="capitalize">{item.name}</span>
                         </Link>
                     ))}

@@ -1,10 +1,13 @@
-import { Questrial } from 'next/font/google'
+import { Syne } from 'next/font/google'
 
-const questrial = Questrial({ subsets: ['latin'], weight: ["400"] })
+const font = Syne({ subsets: ['latin'], weight: ["400"] })
+// import { Questrial } from 'next/font/google'
+
+// const questrial = Questrial({ subsets: ['latin'], weight: ["400"] })
 
 const Title = ({ children, className }: { children: React.ReactNode, className?: string }) => {
     return (
-        <header className={`${className} ${questrial.className}`}>{children}</header>
+        <header className={`${className} ${font.className}`}>{children}</header>
     )
 }
 
