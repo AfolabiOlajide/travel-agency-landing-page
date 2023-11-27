@@ -36,10 +36,10 @@ const Testimonials = () => {
                     <Header className="font-extrabold text-[2rem] md:text-[3rem] capitalize"><h3>What people say about us</h3></Header>
 
                     {/* dot dot */}
-                    <div className="dots flex items-center gap-[2rem] mt-[1.5rem] md:mt-[3rem]">
-                        <div className="dot w-[1rem] h-[1rem] rounded-full bg-grey"></div>
-                        <div className="dot w-[1rem] h-[1rem] rounded-full bg-slate-300"></div>
-                        <div className="dot w-[1rem] h-[1rem] rounded-full bg-slate-300"></div>
+                    <div className="dots flex items-center gap-[1rem] md:gap-[2rem] mt-[1.5rem] md:mt-[3rem]">
+                        <div className="dot w-[.5rem] md:w-[1rem] h-[.5rem] md:h-[1rem] rounded-full bg-grey"></div>
+                        <div className="dot w-[.5rem] md:w-[1rem] h-[.5rem] md:h-[1rem] rounded-full bg-slate-300"></div>
+                        <div className="dot w-[.5rem] md:w-[1rem] h-[.5rem] md:h-[1rem] rounded-full bg-slate-300"></div>
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@ const Subscribe = () => {
         <section>
             <div className="cont">
                 <div className="content relative bg-whitishPurple rounded-[2rem] rounded-tl-[5rem] p-[2rem] py-[5rem] md:p-[5rem] flex flex-col items-center">
-                    <h4 className="text-base md:text-[2rem] font-semibold text-center w-full md:w-[80%] mx-auto text-slate-600">Subscribe to get information, latest news nad intresting offers about jadoo</h4>
+                    <h4 className="text-base md:text-[2rem] font-semibold text-center w-full md:w-[80%] mx-auto text-slate-600">Subscribe to get information, latest news and intresting offers about jadoo</h4>
                     <div className="cta mt-[3rem] md:mt-[5rem] flex items-center gap-[1rem]">
                         <div className="input bg-white flex gap-[1rem] p-[1rem] items-center rounded-md w-full md:w-[30rem]">
                             <IoMailOutline className="text-slate-600 text-[1.3rem]"/>
