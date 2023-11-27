@@ -11,11 +11,11 @@ import Header from "./Header"
 const BookNextTrip = () => {
     return (
         <section className=" relative">
-            <div className="cont my-[9rem] grid grid-cols-2 bg-white/5 backdrop-blur-[4rem]">
+            <div className="w-full md:w-[80%] lg:w-[65%] px-[1rem] mx-auto my-[9rem] grid grid-cols-1 md:grid-cols-2 bg-white/5 backdrop-blur-[4rem]">
                 {/* text */}
                 <div className="text w-full md:w-[70%]">
                     <h5 className="text-slate-600 font-semibold capitalize">Easy and fast</h5>
-                    <Header className="font-extrabold text-[3rem] capitalize"><h3>Book Your next trip in 3 easy steps</h3></Header>
+                    <Header className="font-extrabold text-[2rem] md:text-[3rem] capitalize"><h3>Book Your next trip in 3 easy steps</h3></Header>
                     {/* section */}
                     <section className="mt-[2rem] flex flex-col gap-[2rem]">
                         <div className="section flex gap-[1rem]">
@@ -49,11 +49,12 @@ const BookNextTrip = () => {
                 </div>
 
                 {/* image */}
-                <div className="image">
+                <div className="image my-[3rem] mb-[4rem]">
                     <Image src={Trips} className="w-[100%]" width={20} alt="Icon" unoptimized/>
                 </div>
             </div>
-            <div className="design absolute top-[20%] right-[25%] -z-10">
+            {/* design */}
+            <div className="design absolute top-[60%] md:top-[20%] right-[25%] -z-10">
                 <div className="circle w-[12rem] h-[12rem] rounded-full bg-blue-300"></div>
             </div>
         </section>

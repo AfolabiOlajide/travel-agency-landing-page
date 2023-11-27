@@ -15,11 +15,11 @@ const Category = () => {
                 <h5 className="text-center mb-[1rem] text-slate-500 font-bold uppercase">
                     Category
                 </h5>
-                <Header className="text-[3rem] text-grey font-bold text-center">
+                <Header className="text-[2rem] md:text-[3rem] text-grey font-bold text-center">
                     <h2>We Offer Best Services</h2>
                 </Header>
                 {/* services */}
-                <div className="services grid grid-cols-4 mt-[5rem] gap-[3rem]">
+                <div className="services grid grid-cols-1 md:grid-cols-4 mt-[5rem] gap-[3rem]">
                     {/* service */}
                     <div className="services text-center flex flex-col justify-center">
                         <div className="image">

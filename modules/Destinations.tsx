@@ -16,11 +16,11 @@ const Destinations = () => {
                 <h5 className="text-center mb-[1rem] text-slate-500 font-bold capitalize">
                     Top Selling
                 </h5>
-                <Header className="text-[3rem] text-grey font-bold text-center">
+                <Header className="text-[2rem] md:text-[3rem] text-grey font-bold text-center">
                     <h2>Top Destinations</h2>
                 </Header>
                 {/* destinations */}
-                <div className="destinations grid grid-cols-3 gap-[5rem] mt-[4rem]">
+                <div className="destinations grid grid-cols-1 md:grid-cols-3 gap-[5rem] mt-[4rem]">
                     <div className="destination box-shadow rounded-[2rem] pb-[1rem]">
                         <div className="image">
                             <Image

@@ -10,12 +10,12 @@ import Button from "@/components/Button";
 const Hero = () => {
     return (
         <section className="hero-section bg-lightOrange">
-            <div className="cont py-[5rem] grid grid-cols-[43%_60%]">
+            <div className="cont py-[5rem] grid grid-cols-1 md:grid-cols-[43%_60%]">
                 <div className="text">
-                    <h5 className="uppercase font-bold text-myGreen mb-[2rem] text-[1rem]">
+                    <h5 className="uppercase font-bold text-myGreen mb-[2rem] text-[.7rem] md:text-[1rem] text-center md:text-left">
                         best destinations around the world
                     </h5>
-                    <Title className="!font-[900] text-[5rem] text-grey leading-[5rem]">
+                    <Title className="!font-[900] text-[3rem] text-center md:text-left md:text-[5rem] text-grey leading-[5rem]">
                         <h1>Travel, enjoy and live a new and full life</h1>
                     </Title>
                     <p className="mt-[3rem] text-slate-500 text-base md:text-[1.5rem] leading-[2rem]">
@@ -29,12 +29,12 @@ const Hero = () => {
                             <Button text="Find out more" className="shadow-or"/>
                         </div>
                         <div className="play flex items-center gap-[1.5rem]">
-                            <div className="play-btn rounded-full p-[1.4rem] shadow-gr bg-myGreen w-max"><FaPlay /></div>
+                            <div className="play-btn rounded-full p-[1rem] md:p-[1.4rem] shadow-gr bg-myGreen w-max"><FaPlay /></div>
                             <span className="font-semibold text-slate-500">Play Demo</span>
                         </div>
                     </div>
                 </div>
-                <div className="image">
+                <div className="image mt-[4rem] md:mt-0">
                     <Image
                         src={HeroImg}
                         className="w-[100%]"

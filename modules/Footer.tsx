@@ -12,14 +12,14 @@ import PlayStore from "@/assets/playstore.png"
 const Footer = () => {
     return (
         <footer className="my-[3rem] mt-[7rem]">
-            <div className="cont flex justify-between gap-[3rem]">
+            <div className="cont flex flex-col md:flex-row justify-between gap-[3rem]">
                 <div className="logo-part w-full md:w-[20%]">
                     <div className="logo">
                         <Image src={Logo} className="w-[5rem]" width={20} alt="Logo" unoptimized/>
                     </div>
                     <p className="mt-[2rem]">Book your trip in minute, get full Control for much longer.</p>
                 </div>
-                <div className="links-section grid grid-cols-3 gap-[2rem] flex-1">
+                <div className="links-section grid grid-cols-2 md:grid-cols-3 gap-[2rem] flex-1">
                     <div className="section">
                         <header className="font-bold text-[1.4rem] mb-[1.5rem]">Company</header>
                         <div className="links text-slate-600 flex flex-col gap-[1rem]">
@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="socials-download">
+                <div className="socials-download flex flex-col items-center md:items-start">
                     <div className="socials flex items-center gap-[2rem] mb-[2rem]">
                         <div className="social-icon shadow-slate-200 shadow-md p-[1rem] rounded-full">
                             <FaFacebookF />
