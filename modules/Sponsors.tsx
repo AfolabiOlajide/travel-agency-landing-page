@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Sponsors = () => {
     return (
-        <section className="my-[3rem] md:my-[10rem] mt-[20rem]">
+        <section className="my-[3rem] md:my-[10rem] md:mt-[15rem] mt-[20rem]">
             <div className="cont">
                 <div className="sponsors grid grid-cols-5 gap-[1rem] md:gap-[5rem]">
                     <div className="image">
