@@ -77,8 +77,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="all-rights text-center my-[5rem]">
-                <span className="text-slate-600 font-semibold">All rights reserved@jadoo.co</span>
+            <div className="all-rights text-center my-[2rem] md:my-[5rem]">
+                <span className="text-slate-600 font-semibold text-[.7rem] md:text-base">All rights reserved@jadoo.co</span>
             </div>
         </footer>
     )

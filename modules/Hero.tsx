@@ -10,15 +10,15 @@ import Button from "@/components/Button";
 const Hero = () => {
     return (
         <section className="hero-section bg-lightOrange">
-            <div className="cont py-[5rem] grid grid-cols-1 md:grid-cols-[43%_60%]">
+            <div className="cont pt-0 md:py-[5rem] grid grid-cols-1 md:grid-cols-[43%_60%]">
                 <div className="text">
                     <h5 className="uppercase font-bold text-myGreen mb-[2rem] text-[.7rem] md:text-[1rem] text-center md:text-left">
                         best destinations around the world
                     </h5>
-                    <Title className="!font-[900] text-[3rem] text-center md:text-left md:text-[5rem] text-grey leading-[5rem]">
+                    <Title className="!font-[900] text-[3rem] text-center md:text-left md:text-[5rem] text-grey leading-[3rem] md:leading-[5rem]">
                         <h1>Travel, enjoy and live a new and full life</h1>
                     </Title>
-                    <p className="mt-[3rem] text-slate-500 text-base md:text-[1.5rem] leading-[2rem]">
+                    <p className="mt-[3rem] text-slate-500 text-base md:text-[1.5rem] leading-[2rem] text-center md:text-left">
                         Built Wicket longer admire do barton vanity itself do in 
                         it. Preferred to sportsmen it engrosed listening. Park 
                         gate sell they west hard for the.
